@@ -1,0 +1,15 @@
+{
+  "name": "clasificararchivos",
+  "version": "1.0.0",
+  "description": "clasificar los tipos de archivos en diferentes carpetas",
+  "main": "clasificar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Correa",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^10.1.0",
+    "path": "^0.12.7"
+  }
+}
