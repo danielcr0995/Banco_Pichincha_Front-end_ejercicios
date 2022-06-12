@@ -15,3 +15,4 @@ factura.agregarProducto(p2);
 factura.agregarProducto(p3);
 factura.agregarProducto(p4);
 factura.imprimirFactura();
+// console.log(factura);

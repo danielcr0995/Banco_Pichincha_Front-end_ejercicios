@@ -2,7 +2,7 @@ class Producto {
   constructor(
     public cod: string = "",
     public nombre: string,
-    public cantidad: number = 1,
+    public cantidad: number,
     public precio: number
   ) {}
 

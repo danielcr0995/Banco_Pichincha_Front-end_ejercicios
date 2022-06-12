@@ -42,10 +42,16 @@ class Factura {
     console.log(" FACTURA ");
     console.log("--------------- \n");
     this.productos.forEach((producto) => {
+      // console.log(
+      //   `${producto.cod} ${producto.nombre} ${
+      //     producto.cantidad
+      //   }  ${producto.calcSutotalProducto()}`
+      // );
       console.log(
-        `${producto.cod} ${producto.nombre} ${
-          producto.cantidad
-        }  ${producto.calcSutotalProducto()}`
+        producto.cod,
+        producto.nombre,
+        producto.cantidad,
+        producto.calcSutotalProducto()
       );
     });
     console.log("\n--------------- ");
