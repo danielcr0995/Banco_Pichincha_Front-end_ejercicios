@@ -37,7 +37,7 @@ describe("Factura y Producto, clases y metodos", () => {
     expect(subtotal).toBe(calcSutotalProductoExpected);
   });
 
-  test("Calcular el subtotal, impuestos y total de una lista de productos[3] y devolver [{subtotal:22.25, impuestos:2.67, total: 24.92} con el metodo #calcTotales", () => {
+  test("Calcular el subtotal, impuestos y total de una lista de productos[3] y devolver [{subtotal:21.50, impuestos:2.58, total: 24.08} con el metodo #calcTotales", () => {
     const p1 = new Producto("", "Leche", 2, 2.5);
     const p2 = new Producto("", "Pan", 10, 0.15);
     const p3 = new Producto("", "Queso", 2, 7.5);
