@@ -1,0 +1,35 @@
+body {
+  background-color: rgb(211, 211, 211);
+}
+
+.personaje {
+  background: #000;
+  padding: 0;
+}
+
+/* .img-personaje {
+  max-height: 200px;
+} */
+
+.action-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #000;
+  color: #fff;
+}
+
+.new-updload {
+  background-color: #fff;
+  display: none;
+}
+
+.new-personaje-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
